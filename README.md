@@ -14,3 +14,5 @@ sudo pip install gunicorn
 gunicorn --bind 0.0.0.0:8000 -w 4 "CTFd:create_app()"  
 
 #如果想提示中文的欢迎语，请在\suCTF\CTFd中的views.py的顶部增加 # -*- coding: utf-8 -*-    
+
+访问直接ip:8000
